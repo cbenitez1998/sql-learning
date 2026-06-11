@@ -4,7 +4,7 @@
 
 This project explores the Superstore dataset using SQL to identify sales patterns, profitability trends, and potential business issues across product categories.
 
-The main objective was to practice SQL while answering real business questions and extracting actionable insights from the data.
+The main objective was to practice SQL while answering real business questions and extracting actionable business insights from the data.
 
 ---
 
@@ -12,25 +12,25 @@ The main objective was to practice SQL while answering real business questions a
 
 The dataset contains information about:
 
-* Orders
-* Products
-* Categories and sub-categories
-* Sales
-* Profit
-* Quantity
-* Discounts
-* Customers
-* Shipping information
+- Orders
+- Products
+- Categories and sub-categories
+- Sales
+- Profit
+- Quantity
+- Discounts
+- Customers
+- Shipping information
 
-Approximately 10,000 sales records were analyzed.
+Approximately 10,000 sales records were analyzed using SQL queries in SQLite.
 
 ---
 
 ## Tools Used
 
-* SQLite
-* DB Browser for SQLite
-* SQL
+- SQLite
+- DB Browser for SQLite
+- SQL
 
 ---
 
@@ -38,13 +38,14 @@ Approximately 10,000 sales records were analyzed.
 
 Some of the questions explored during this project include:
 
-* Which products generate the highest sales?
-* Which products generate the highest profit?
-* Which categories are the most profitable?
-* Which category has the lowest profit margin?
-* How do discounts affect profitability?
-* Which Furniture sub-categories perform the worst?
-* Why does the Tables sub-category have negative profitability?
+- Which products generate the highest sales?
+- Which products generate the highest profit?
+- Which products generate the lowest profit?
+- Which categories are the most profitable?
+- Which category has the lowest profit margin?
+- How do discounts affect profitability?
+- Which Furniture sub-categories perform the worst?
+- Why does the Tables sub-category have negative profitability?
 
 ---
 
@@ -52,26 +53,26 @@ Some of the questions explored during this project include:
 
 ### Category Analysis
 
-* Technology generates the highest sales and profits.
-* Furniture has the second highest sales but the lowest profit margin.
-* Office Supplies maintains a healthy balance between sales and profitability.
+- Technology generates the highest sales and profits.
+- Furniture has the second highest sales but the lowest profit margin.
+- Office Supplies maintains a healthy balance between sales and profitability.
 
 ### Furniture Analysis
 
 Further investigation showed that:
 
-* Chairs and Furnishings are profitable.
-* Bookcases and Tables generate losses.
-* Tables have the worst profit margin within Furniture.
+- Chairs and Furnishings are profitable.
+- Bookcases and Tables generate losses.
+- Tables have the worst profit margin within Furniture.
 
 ### Tables Investigation
 
 A deeper analysis revealed that:
 
-* Tables receive the highest average discount among Furniture sub-categories.
-* Only about 35% of Table sales are profitable.
-* Approximately 65% of Table sales generate losses.
-* The average loss for unprofitable Table sales is around $160.
+- Tables receive the highest average discount among Furniture sub-categories.
+- Only about 35% of Table sales are profitable.
+- Approximately 65% of Table sales generate losses.
+- The average loss for unprofitable Table sales is around $160.
 
 ---
 
@@ -81,9 +82,12 @@ The analysis suggests that the Furniture category's low profitability is largely
 
 High discount rates combined with a high proportion of unprofitable sales may be significantly affecting overall margins.
 
+This project demonstrates how SQL can be used to answer business questions and identify opportunities for improving profitability.
+
 ---
 
-## Files
+## Project Files
 
-* `queries.sql` : SQL queries used during the analysis.
-* `Superstore.db` : SQLite database.
+- `queries.sql` — SQL queries used during the analysis.
+- `superstore.db` — SQLite database.
+- `superstore.csv` — Original dataset.
